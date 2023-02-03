@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+.ancho{
+    width: 100%;
+    height: 70px;
+    margin: 0px 0px 25px 30px;
+}
+.logo{
+    background-image: url('logo3.jpg');
+    width: 30%;
+    height: 90px;
+    float: left;
+    padding: top;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin: 10px 50px 25px 30px;
+}
+
+nav{
+    width: 50%;
+    height: 70px;
+    float: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+nav ul li{
+    display: inline;
+}
+li{
+    font-family: 'Itim'; 
+    padding-left: 15px;
+    margin: 0px 20px 0px 5px;
+    padding: 0px 10px 0px 10px;
+    font-size: 22px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: tomato;
+    border-radius: 20px;
+    color: white;
+    border: solid 5px tomato;
+}
+main{
+background-image: url('gatitoweb2.jpg');
+height:1080px;
+background-size: contain;
+font-family: 'Itim';
+background-repeat: no-repeat;
+}
+section{
+    background-color: rgba(255,99,71,0.7);
+    margin: 0px 900px 50px 50px;
+    padding: 100px 50px 200px 50px;  
+    border-radius: 50px; 
+}
+label{
+    font-size: 30px;
+    color: white;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0px 20px 0px 30px;
+    padding: 50px 50px 0px 50px;  
+    text-shadow: 1px 1px 1px black;
+    font-size: 50px;
+}
+#donaciones{
+    color: white;
+    text-align: center;
+    margin: 5px 20px 25px 30px;
+    padding: 10px 50px 20px 50px;  
+    text-shadow: 1px 1px 1px black;
+    font-size: 22px;
+}
+input{
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0);
+    margin-top: 10px;
+    padding: 5px 5px 5px 0px;
+    font-size: 20px;
+}
+input:hover{
+    background-color: white;
+}
+#boton{
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    border-width: 7px;
+    font-family: 'Roboto';
+    background-color: white;
+    font-size: 15px;
+}
+#boton:hover{
+    border-color: #30373F;
+    background-color: #30373F;
+    color: white;
+}
+#text{
+    color: #30373F;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 20px;
+}

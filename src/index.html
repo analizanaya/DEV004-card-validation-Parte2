@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css">
+  <!--Fuente: Itim-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- logo y menú -->
+  <header>
+
+    <div class="ancho">
+      <div class='logo'>
+        <p><a href='index.html'></a></p>
+      </div>
+      <nav>
+        <ul>
+          <li> <a href="#">Inicio</a></li>
+          <li> <a href="#">|</a></li>
+          <li> <a href="#">¿Qué hacemos?</a></li>
+          <li> <a href="#">|</a></li>
+          <li> <a href="#">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    
+      <h2>Gracias a tus donaciones,</h2>
+        <div id="donaciones">podemos seguir ayudando a más animalitos a salir del abandono y maltrato.</div>
+    
+    <section>
+      <label for="cardnumber">Nro de Tarjeta: </label><br>
+      <input id='cardnumber' name='tarjeta' type='number' placeholder='Ingrese número de tarjeta'></input>
+      <button type="button" id="boton">Validar</button>
+      <div id="text"></div>
+    </section>
+
+  </main>
+  <footer></footer>
+  <script src="indexPrueba.js" type="module"></script>
+</body>
+
 </html>
