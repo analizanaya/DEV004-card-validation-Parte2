@@ -1,8 +1,8 @@
- function validate(numeroIngresado) {
+function isValid(numeroIngresado) {
 
   const deStringaArray = numeroIngresado.split(''); //".split" - Cambiar un string a array.
   const numeroReversa = deStringaArray.reverse(); //".reverse" - Array al revés.
-  let reverse = numeroReversa.join(''); // ".join" - Cambiar un array a string.
+  const reverse = numeroReversa.join(''); // ".join" - Cambiar un array a string.
 
   let resultado = 0;
   let elem = null;
@@ -47,7 +47,7 @@ function maskify(ocultarNumero) {
   }
 }
 
-const validator = {validate, maskify};
+const validator = {isValid: isValid, maskify};
   
 export default validator;
 
