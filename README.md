@@ -1,8 +1,9 @@
-<center> <h2>Proyect 1</h2>
- <br><h1>"Card Validation"</h1>
+## Proyect 1
+# "Card Validation"
 
   ![Logo Laboratoria](/logoLaboratoria.png)
- <br> Creado por [Analiz Anaya](https://github.com/analizanaya)</center>
+ ### Creado por [Analiz Anaya](https://github.com/analizanaya)
+<br>
 
  ## Índice
 
@@ -16,7 +17,7 @@
 
 
  ## Acerca del Proyecto
- ______________________________
+
  Bienvenidos a mi primer proyecto de Laboratoria, elaborado con la finalidad de conocer y aplicar conceptos básicos de programación. 
  
  El proyecto consiste en elaborar un input donde el usuario inserte el número de tarjeta de crédito para luego validarla.
@@ -25,7 +26,7 @@
 <br>
 
  ## Lenguaje de Programación
- _______________________________
+
 * Javascript
 * HTML
 * CSS
@@ -33,7 +34,6 @@
 <br>
 
 ## Objetivos de aprendizaje
-_________________________________
 
 <details><summary>HTML</summary>
 
@@ -69,7 +69,7 @@ _________________________________
 <br>
 
 ## Producto final
-_______________________
+
 ### **Criterios de acceptación**
 
 * Permitir insertar el número de la tarjeta que se quiere validar (texto) en un campo de texto vacío.
